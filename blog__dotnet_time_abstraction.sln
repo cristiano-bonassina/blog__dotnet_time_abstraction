@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{790F9B46-0CCC-47C2-A6B2-32B070572DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog__dotnet_time_abstraction", "src\blog__dotnet_time_abstraction\blog__dotnet_time_abstraction.csproj", "{6C80AD59-9ADC-4A6D-8206-872223231E80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CC7A0E45-C9F9-47FC-B68C-5B212DAD52AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog__dotnet_time_abstraction.UnitTests", "test\blog__dotnet_time_abstraction.UnitTests\blog__dotnet_time_abstraction.UnitTests.csproj", "{41D0199B-F798-40A8-9043-0773E39A7309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C80AD59-9ADC-4A6D-8206-872223231E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C80AD59-9ADC-4A6D-8206-872223231E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C80AD59-9ADC-4A6D-8206-872223231E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C80AD59-9ADC-4A6D-8206-872223231E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D0199B-F798-40A8-9043-0773E39A7309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D0199B-F798-40A8-9043-0773E39A7309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D0199B-F798-40A8-9043-0773E39A7309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D0199B-F798-40A8-9043-0773E39A7309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C80AD59-9ADC-4A6D-8206-872223231E80} = {790F9B46-0CCC-47C2-A6B2-32B070572DF3}
+		{41D0199B-F798-40A8-9043-0773E39A7309} = {CC7A0E45-C9F9-47FC-B68C-5B212DAD52AA}
+	EndGlobalSection
+EndGlobal
